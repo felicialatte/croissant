@@ -23,6 +23,21 @@ img {
   margin-bottom: 20px;
 }
 
+a {
+  background: #5C0400;
+  color: white;
+  text-decoration: none;
+padding: 3px;
+border-radius: 4px;
+}
+
+a:hover {
+  background: white;
+  color: #5C0400;
+  transition: all 200ms ease-in-out;
+  border-radius: 4px;
+}
+
 footer {
   text-align: center;
   display: block;
