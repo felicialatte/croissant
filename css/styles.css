@@ -1,15 +1,32 @@
 body {
-  background-color: #b7ebe9;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/093/original/pexels-christina-polupanova-138429930-10281101.jpg?1738240157);
+background-size: 1500px;
 }
 
 h1,
 p {
   text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+}
+p {
+  line-height: 1.5;
+}
+
+img {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
 }
 
 footer {
   text-align: center;
   display: block;
+  margin-top: 40px;
 }
 
 footer a {
@@ -17,9 +34,12 @@ footer a {
 }
 
 .container {
-  background-color: white;
-  margin: 10px;
-  padding: 15px 25px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 120px;
+  max-width: 400px;
+  background-color: rgba(0, 0,  0, 0.3);
+  padding: 15px 30px;
   border-radius: 4px;
 
 }
