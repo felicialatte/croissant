@@ -1,0 +1,13 @@
+body {
+  background-color: #b7ebe9;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
